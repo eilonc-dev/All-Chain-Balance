@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "All-Chain-Balance",
+    "version": "1.0",
+    "description": "All Chain Balance extension.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+      "scripts": ["dist/background.js"],
+      "persistent": false},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "dist/popup.html"
+    },
+    "permissions": ["activeTab", "storage", "tabs"]
+}
