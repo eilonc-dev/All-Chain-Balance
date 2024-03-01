@@ -1,0 +1,15 @@
+{
+  "name": "all-chain-balance",
+  "version": "1.0.0",
+  "description": "all chain balance",
+  "main": "index.js",
+  "scripts": {
+    "test": "testapp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "All-Chain-Balance"
+  },
+  "author": "eilonc-dev",
+  "license": "MIT"
+}
